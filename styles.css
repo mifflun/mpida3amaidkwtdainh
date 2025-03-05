@@ -1,0 +1,60 @@
+/* General Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeb3b; /* Bright yellow background */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+header {
+    background-color: #ff9800; /* Orange background */
+    padding: 20px;
+    font-size: 2em;
+    color: white;
+}
+
+/* Login Button Style */
+.login-button {
+    background-color: #0d47a1; /* Blue color */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.login-button:hover {
+    background-color: #1565c0; /* Darker blue when hovering */
+}
+
+/* Main Content Area */
+main {
+    padding: 50px;
+    background-color: #fff3e0; /* Light yellow background */
+}
+
+/* Panic Button Style */
+.panic-button {
+    background-color: #d32f2f; /* Red color */
+    color: white;
+    font-size: 1.5em;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.panic-button:hover {
+    background-color: #c2185b; /* Darker red when hovering */
+}
+
+/* Footer Style */
+footer {
+    background-color: #ff9800; /* Orange background */
+    padding: 20px;
+    font-size: 1em;
+    color: white;
+}
